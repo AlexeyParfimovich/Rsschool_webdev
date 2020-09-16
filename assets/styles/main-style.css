@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header { background: #aaa; }
+.section1 { background: #abb; }
+.section2 { background: #bcc; }
+.section3 { background: #ddd; }
+.section4 { background: #eee; }
+.section5 { background: #fff; }
+.section6 { background: #bbb; }
+.footer { background: #aaa; }
