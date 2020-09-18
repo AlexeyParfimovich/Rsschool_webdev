@@ -1,8 +1,6 @@
 body {
-  margin: 0 auto;
-  padding: 0;
+  margin: 0;
 	height: 100vh;
-	max-width: 1600px;
 
 	font-family: 'Roboto', sans-serif;
 	font-style: normal;
@@ -13,6 +11,11 @@ h1 {
 	top: -9999px;
 }
 
+.wrapper {
+	margin: 0 auto;
+	width: 1600px;
+}
+
 .header { 
 	border: 1px solid red;
 	background: url(../images/header-bg-image.svg) no-repeat center top; 
@@ -20,14 +23,41 @@ h1 {
 	color: #ffffff;
 }
 
-nav {
+.nav-main, .nav-social {
 	border: 1px solid red;
-	margin: 100px;
-	display: inline-block;
+	display: flex;
+	flex-direction: row; /*set main axis horizontally*/
+	justify-content: center; 
+	align-items: center;
+}
+.nav-main {
+	margin: 40px;
+}
+.nav-social {
+	margin: 20px;
 }
 
-.header div {
+.menu-item {
+	border: 1px solid yellow;
+	margin: 0px 20px 0px 20px;
+}
+
+.section {
+	border: 1px solid red;
+	display: flex;
+	flex-direction: column; /*set main axis horizontally*/
+	justify-content: center; 
+	align-items: center;
+}
+
+/* a {
+	border: 1px solid yellow;
+	color: #ffffff;
+	padding: 40px;
+} */
+
+/* .header div {
 	border: 1px solid red;
 	display: inline;
 	margin-right: 20px ;
-}
+} */
