@@ -31,33 +31,86 @@ h1 {
 	align-items: center;
 }
 .nav-main {
-	margin: 40px;
+	margin: 0px 0px 136px 0px;
 }
 .nav-social {
-	margin: 20px;
+	margin: 183px auto 89px auto;
 }
 
 .menu-item {
 	border: 1px solid yellow;
 	margin: 0px 20px 0px 20px;
 }
+.logo {
+	margin: 25px 40px 24px 40px;
+}
 
-.section {
+.section-1 {
 	border: 1px solid red;
 	display: flex;
-	flex-direction: column; /*set main axis horizontally*/
+	flex-direction: column; /*set main axis vertical*/
 	justify-content: center; 
 	align-items: center;
 }
 
-/* a {
-	border: 1px solid yellow;
-	color: #ffffff;
-	padding: 40px;
-} */
-
-/* .header div {
+.section-2 {
 	border: 1px solid red;
-	display: inline;
-	margin-right: 20px ;
-} */
+	display: flex;
+	flex-direction: row;
+	justify-content: center; 
+	align-items: center;
+}
+.section-2-content, section-2-image {
+	border: 1px solid yellow;
+}
+.section-2-content {
+	margin: 295px 248px 314px 268px;
+}
+.section-2-image{
+	margin: 120px 270px 140px 0px;
+}
+
+.section-3 {
+	border: 1px solid red;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between; 
+	align-items: center;
+}
+.section-3-content {
+	margin: 155px 51px 174px 269px;
+}
+
+.list-controls {
+	list-style-type: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: center; 
+	align-items: center;
+}
+.list-ctrl-item {
+	margin: 0px 5px 0px 5px;
+}
+
+.section-3-image-list {
+	border: 1px solid green;
+	display: flex;
+	flex-direction: column;
+	justify-content: center; 
+	align-items: center;
+
+	/* margin: 80px 0px 140px 0px; */
+}
+.list-images {
+	border: 1px solid green;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start; 
+	align-items: center;
+	max-width: 894px;
+
+	overflow: hidden;
+}
+.list-img { 
+	margin-right: 20px;
+}
