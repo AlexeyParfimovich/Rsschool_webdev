@@ -15,31 +15,6 @@ body {
 	top: -9999px;
 }
 
-.text-header-1 {
-	font-size: 64px;
-	font-weight: bold;
-	line-height: 0;
-	letter-spacing: 4.5px;
-	text-transform: uppercase;
-
-	margin-left: 5px;
-}
-
-.wrapper h3 {
-	font-weight: bold;
-	font-size: 24px;
-	letter-spacing: 1px;
-	text-transform: uppercase;
-}
-.wrapper h4 {
-	font-weight: 500;
-	font-size: 16px;
-	letter-spacing: 2.4px;
-	text-transform: uppercase;
-	color: #373737;
-}
-
-
 .header {
 	height: 744px;
 	display: flex;
@@ -52,17 +27,6 @@ body {
 	color: #ffffff;
 }
 
-.header a {
-	text-decoration: none;
-	font-weight: normal;
-	font-size: 14px;
-	opacity: 0.8;
-	color: #ffffff;
-}
-.header a:hover {
-	opacity: 1;
-}
-
 .nav-main, .nav-social {
 	display: flex;
 	flex-basis: content;
@@ -72,7 +36,21 @@ body {
 }
 
 .nav-main {	margin-right: 12px; }
-.nav-main-item { margin: 22px 42px 0px 42px; }
+
+.nav-main-item { 
+	text-decoration: none;
+	font-weight: normal;
+	font-size: 14px;
+	opacity: 0.8;
+	color: #ffffff;
+	
+	margin: 22px 42px 0px 42px; }
+
+.nav-main-item:hover { 
+	opacity: 1; 
+	border-bottom: 1px solid #ffffff;
+}
+
 .nav-main-logo { margin: 25px 60px 0px 60px; }
 
 .nav-social {	margin: 183px auto 85px auto; }
@@ -80,18 +58,27 @@ body {
 
 .section-1 {
 	display: flex;
-	/* flex-basis: content; */
 	flex-direction: column;
 	justify-content: flex-start;
 	align-items: center;
 
 	margin-top: 129px;
 }
+
+.section-1-header {
+	font-size: 64px;
+	font-weight: bold;
+	line-height: 0;
+	letter-spacing: 4.5px;
+	text-transform: uppercase;
+
+	margin-left: 5px;
+}
+
 .section-1-text {
 	max-width: 500px ;
 	text-align: center;
 
-	/* line-height: 1.3; */
 	font-size: 18px;
 	font-weight: normal;
 	margin: 0px 50px 30px 50px;
@@ -117,32 +104,92 @@ body {
 	cursor: pointer;
 }
 
+/* 
+	Section 2 - Rappresent
+*/
+
 .section-2 {
-	border: 1px solid red;
+	height: 842px;
 	display: flex;
 	flex-direction: row;
 	justify-content: center; 
 	align-items: center;
 }
-.section-2-content, section-2-image {
-	border: 1px solid yellow;
+
+.section-2-content { margin: 270px 250px 314px 268px; }
+
+.section-2-header {
+	font-weight: bold;
+	font-size: 24px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	margin-right: 20px;
 }
-.section-2-content {
-	margin: 295px 248px 314px 268px;
+.section-2-text {
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 1.4;
+	color:#4E4E4E;
+
+	margin-bottom: 30px;
 }
-.section-2-image{
-	margin: 120px 270px 140px 0px;
+.text-bold {
+	font-weight: bold;
 }
 
+.section-2-image{
+	margin: 123px 270px 140px 0px;
+}
+
+/*
+	Section 3 - Our community 
+*/
+
 .section-3 {
-	border: 1px solid red;
+	/* border: 1px solid red; */
+	height: 504px;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between; 
-	align-items: center;
+	align-items: flex-start;
+
+	background: #F5F6F7;
 }
 .section-3-content {
-	margin: 155px 51px 174px 269px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start; 
+	align-items: center;
+	margin: 154px 51px 174px 193px;
+}
+.section-3-header {
+	font-weight: 500;
+	font-size: 16px;
+	/* line-height: 1; */
+	letter-spacing: 2.4px;
+	text-transform: uppercase;
+	color: #373737;
+
+	margin: 16px 0px 0px 1px;
+}
+.section-3-text {
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 142%;
+	color:#373737;
+
+	text-align: center;
+	margin: 11px 74px 0px 74px;
+}
+
+.section-3-image-list {
+	/* border: 1px solid green; */
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start; 
+	align-items: center;
+
+	margin-top: 61px;
 }
 
 .list-controls {
@@ -151,33 +198,23 @@ body {
 	flex-direction: row;
 	justify-content: center; 
 	align-items: center;
+
+	margin: 17px 0px 0px 247px;
 }
+
 .list-ctrl-item {
 	font-weight: normal;
 	font-size: 18px;
-	margin: 0px 5px 0px 5px;
+	margin: 0px 2px 0px 2px;
 }
 
-.scroll-arrow {
-	margin-top: 2px;
-} 
-
+.scroll-arrow {	margin: 2px 12px 0px 12px; } 
 .scroll-arrow:hover {
 	cursor: pointer;
 	transform: scale(1.5);
 } 
 
-.section-3-image-list {
-	border: 1px solid green;
-	display: flex;
-	flex-direction: column;
-	justify-content: center; 
-	align-items: center;
-
-	/* margin: 80px 0px 140px 0px; */
-}
 .list-images {
-	border: 1px solid green;
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-start; 
@@ -185,7 +222,9 @@ body {
 	max-width: 894px;
 
 	overflow: hidden;
+
+	margin: 18px 0px 0px 10px;
 }
 .list-img { 
-	margin-right: 20px;
+	margin-right: 30px;
 }
