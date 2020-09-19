@@ -23,7 +23,7 @@
 	justify-content: flex-start; 
 	align-items: center;
 
-	background: url(../images/header-bg-image.svg) no-repeat center top; 
+	background: url(./assets/images/header-bg-image.svg) no-repeat center top; 
 	color: #ffffff;
 }
 
@@ -283,7 +283,7 @@
 	justify-content: flex-start; 
 	align-items: flex-start;
 
-	background: url(../images/s5-bg-image.svg) no-repeat center top;
+	background: url(./assets/images/s5-bg-image.svg) no-repeat center top;
 }
 
 .section-5-header {
