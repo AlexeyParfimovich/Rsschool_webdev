@@ -49,8 +49,13 @@
 
 .nav-main-item:hover { 
 	opacity: 1; 
+	/* border-bottom: 1px solid #ffffff; */
+}
+.nav-main-item:focus { 
+	opacity: 1; 
 	border-bottom: 1px solid #ffffff;
 }
+
 
 .nav-main-logo { margin: 25px 60px 0px 60px; }
 .socials {	margin: 183px auto 85px auto; }
